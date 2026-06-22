@@ -38,3 +38,6 @@
 - 新增 `pages/ch03/019.md`、`022.md`、`025.md`、`033.md`、`034.md`，补齐前段侦察桥：白天训练余波、沈默的数据判断、陈渡初谈后的城市回程、顾铮谈话后的失眠与许岚单独提醒。
 - 新增 `pages/ch03/068.md`、`069.md`、`070.md`、`072.md`、`076.md`、`079.md`、`081.md`、`084.md`、`086.md`、`089.md`、`090.md`，补齐地下组织群像与认知过渡：地下停车场的贫穷生活秩序、老张/小赵/阿姐等群像、共振平衡逻辑、旧名字核验、选择性汇报、训练回稳与围栏/美食广场的双世界并置。
 - 第三章 `pages/ch03/001.md`-`150.md` 已补齐，节次缺口清零；引号外第一人称残留扫描为 0。
+- 补齐可见辅助文档：新增 `docs/project_map.md`、`volumes/README.md`、`volumes/volume-1.md`、`prompts/README.md`、`archives/README.md`，解释隐藏工作流目录与标准目录用途。
+- 生成第三章整章归档草稿 `archives/vol-1-ch-3-huisheng.draft.md`，作为后续 anti-ai 与 reader 的标准输入。
+- 新增 `docs/chapter03_anti_ai_scan.md`，记录第三章反 AI 初扫结果；下一轮优先处理 B1/B5 高频套路句式。
