@@ -41,3 +41,4 @@
 - 补齐可见辅助文档：新增 `docs/project_map.md`、`volumes/README.md`、`volumes/volume-1.md`、`prompts/README.md`、`archives/README.md`，解释隐藏工作流目录与标准目录用途。
 - 生成第三章整章归档草稿 `archives/vol-1-ch-3-huisheng.draft.md`，作为后续 anti-ai 与 reader 的标准输入。
 - 新增 `docs/chapter03_anti_ai_scan.md`，记录第三章反 AI 初扫结果；下一轮优先处理 B1/B5 高频套路句式。
+- 第三章反 AI 第一批处理 `001/002/003/006/007/009/011/015/021/051/054`，优先去除 B1/B5 机械句式；整章 draft 已重新同步，视角扫描仍为 0，B1/B5 合计减少 131 处。
