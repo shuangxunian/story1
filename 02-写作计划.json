@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "novelName": "长篇玄幻小说（正式名称待定）",
+  "projectPath": "/Users/shuangxunian/code/story1",
+  "totalChapters": 10,
+  "minWordsPerChapter": 2000,
+  "note": "本项目以'节'为最小叙事单元（约2000字/节），非传统章回体。每章100-200节。",
+  "createdAt": "2026-06-20T00:00:00+08:00",
+  "updatedAt": "2026-06-22T00:00:00+08:00",
+  "status": "in_progress",
+  "writingMode": "hybrid",
+  "chapters": [
+    {
+      "chapterNumber": 1,
+      "title": "觉醒",
+      "plannedSections": 120,
+      "completedSections": 63,
+      "filePath": "pages/ch01/",
+      "status": "completed",
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 2,
+      "title": "裂痕",
+      "plannedSections": 100,
+      "completedSections": 65,
+      "filePath": "pages/ch02/",
+      "status": "completed",
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 3,
+      "title": "回声",
+      "plannedSections": 150,
+      "completedSections": 150,
+      "filePath": "pages/ch03/",
+      "status": "completed",
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 4,
+      "title": "灰色",
+      "plannedSections": 150,
+      "completedSections": 0,
+      "filePath": "pages/ch04/",
+      "status": "pending",
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 5,
+      "title": "观察期",
+      "plannedSections": 150,
+      "completedSections": 0,
+      "filePath": "pages/ch05/",
+      "status": "pending",
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 6,
+      "title": "心跳",
+      "plannedSections": 150,
+      "completedSections": 0,
+      "filePath": "pages/ch06/",
+      "status": "pending",
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 7,
+      "title": "苏晚",
+      "plannedSections": 200,
+      "completedSections": 0,
+      "filePath": "pages/ch07/",
+      "status": "pending",
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 8,
+      "title": "分裂",
+      "plannedSections": 200,
+      "completedSections": 0,
+      "filePath": "pages/ch08/",
+      "status": "pending",
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 9,
+      "title": "倒计时",
+      "plannedSections": 200,
+      "completedSections": 0,
+      "filePath": "pages/ch09/",
+      "status": "pending",
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 10,
+      "title": "还不够",
+      "plannedSections": 200,
+      "completedSections": 0,
+      "filePath": "pages/ch10/",
+      "status": "pending",
+      "retryCount": 0
+    }
+  ]
+}
