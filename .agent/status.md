@@ -5,4 +5,4 @@
 - **current_volume:** 1
 - **current_chapter:** 5
 - **last_archived:** 4
-- **next_task:** 第5章《裂痕》章纲已完成，文件为 `chapters/vol-1-ch-5.md`。下一步进入 draft 阶段：由 prompt-crafter 生成 `prompts/vol-1-ch-5-prompt.md`，再交 writer 按第三人称限知、林时贴身视角、龙族式青春群像日常缓冲与高压主线咬合的要求写正文草稿。
+- **next_task:** 第5章《裂痕》提示词已完成，文件为 `prompts/vol-1-ch-5-prompt.md`。下一步交 writer 按提示词写正文草稿，目标产出 `archives/vol-1-ch-5-lihen.draft.md`；保持第三人称限知、林时贴身视角、群像日常缓冲与高压主线咬合。
