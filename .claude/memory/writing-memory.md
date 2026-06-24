@@ -14,7 +14,7 @@
 - **场景:** 学院高层、灰色决策者、章末钩子与下一章开场
 - **use_count:** 1
 
-- **原文:** 第4章采用分页写作，但归档标准流程查找 archives/*.draft.md，导致归档前需要补标准入口。
-- **结论:** 分页写作可以保留在 pages/chXX/ 作为工作稿，但进入 review/archive 前必须合并生成 archives/vol-{N}-ch-{M}-{slug}.draft.md，后续 updater 以 archives 文件为 canonical 归档入口。
-- **场景:** 超长章节分页写作、归档前总检、updater lore-keeping
+- **原文:** 第4章采用分页写作，但归档标准流程查找 archives/*.draft.md，导致归档前需要补标准入口；作者要求后续按 skill 规范收口，避免结构越偏越远。
+- **结论:** 分页写作只可作为临时过程，不作为长期项目结构保留；进入 review/archive 前必须合并生成 archives/vol-{N}-ch-{M}-{slug}.draft.md 或 .md，后续 writer/updater 以 archives 文件为 canonical 正文入口。
+- **场景:** 超长章节临时拆写、归档前总检、updater lore-keeping、项目结构清理
 - **use_count:** 1
