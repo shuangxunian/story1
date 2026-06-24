@@ -3,7 +3,7 @@
 ## 元信息
 
 - **skill_version:** 4.0
-- **status:** outline
+- **status:** archived
 - **卷号:** 1
 - **章节:** 5
 - **标题:** 裂痕
