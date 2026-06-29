@@ -3,7 +3,7 @@
 ## 元信息
 
 - **skill_version:** 4.0
-- **status:** archived
+- **status:** draft
 - **卷号:** 1
 - **章节:** 7
 - **标题:** 回响
