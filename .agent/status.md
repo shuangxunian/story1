@@ -5,4 +5,4 @@
 - **current_volume:** 1
 - **current_chapter:** 8
 - **last_archived:** 7
-- **next_task:** 第8章《分裂》章纲已完成并通过 chapter-verify：结构完整、120节连续、关键字段齐备，已清除章纲层面的抽象标签/AI味命中项。下一步进入 prompt-crafter，为第8章生成正文提示词；仍不直接跳到正文。
+- **next_task:** 已补齐归档正文第5/6/7章节标题，并完成第8章章纲120节短标题；正文需使用纯文本 `001｜节名` 格式，不使用 Markdown 标题。下一步进入 prompt-crafter，为第8章生成正文提示词，并显式注入节标题输出约束；仍不直接跳到正文。
