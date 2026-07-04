@@ -15,11 +15,14 @@
 ## 当前正文状态
 
 - 第一章：`archives/vol-1-ch-1-jing.md`
-- 第二章：`archives/vol-1-ch-2-xinhao.md`
-- 第三章：`archives/vol-1-ch-3-huisheng.md`
-- 第四章：`archives/vol-1-ch-4-huise.md`
+- 第二章：`archives/vol-1-ch-2-xinhao.md`（120节修订版，当前真相源）
+- 第三章：`archives/vol-1-ch-3-huisheng.md`（旧稿待按新版第二章返修）
+- 第四章：`archives/vol-1-ch-4-huise.md`（待第三章重接后复核）
+- 第五章：`archives/vol-1-ch-5-lihen.md`（待第三章重接后复核）
+- 第六章：`archives/vol-1-ch-6-shenyuan.md`（待第三章重接后复核）
+- 第七章：`archives/vol-1-ch-7-huixiang.md`（待第三章重接后复核）
 
-第1-4章已收口到 `archives/`。当前状态见 `.agent/status.md`，下一步是第5章《裂痕》章纲规划。
+第2章修订版已收口到 `archives/`。当前状态见 `.agent/status.md`，下一步是按新版第二章章末钩子返修第三章《回声》。
 
 ## 为什么之前看不到部分辅助目录
 
