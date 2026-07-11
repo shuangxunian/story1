@@ -1,5 +1,13 @@
 # 第四章：灰色（扩展版·120节）
 
+status: draft
+volume: 1
+chapter: 4
+title: 灰色
+target_sections: 120
+target_section_chars: 2000+
+pov: 林时（第三人称限知，贴身视角）
+
 ## 总述
 
 林时完成第一次越界后，没有立刻被抓，也没有立刻成为英雄。他继续训练、出外勤、吃食堂淡豆浆，但"情报泄露待查"像一根细线勒在所有日常下面。
