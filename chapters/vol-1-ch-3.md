@@ -1,6 +1,6 @@
 # 第三章：回声（新版重构章纲）
 
-status: outline
+status: archived
 volume: 1
 chapter: 3
 title: 回声
