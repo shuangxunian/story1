@@ -1,6 +1,6 @@
 # 第四章：灰色（扩展版·120节）
 
-status: draft
+status: archived
 volume: 1
 chapter: 4
 title: 灰色
