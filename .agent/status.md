@@ -5,4 +5,4 @@
 - **current_volume:** 1
 - **current_chapter:** 9
 - **last_archived:** 8
-- **next_task:** 第九章《倒计时》正文草稿已写入 archives/vol-1-ch-9-daojishi.draft.md 的 001-050；下一步继续写 051-060。
+- **next_task:** 第九章《倒计时》正文草稿已写入 archives/vol-1-ch-9-daojishi.draft.md 的 001-052；下一步继续写 053-060。
