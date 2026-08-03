@@ -94,7 +94,7 @@ knowledge:
 
   THINK:
     当前phase？
-    ├── setup → 与作者讨论设定 → 写 setting-update-order → 调 updater
+    ├── setup → 先读 `rebuild/reset-v2/authority-register.md`、`author-confirmations.md` 与 `open-decisions.md`；只与作者讨论未决设定 → 写 setting-update-order → 调 updater。禁止读取 `.archive/` 或据旧文件推断剧情。
     ├── outline → sub: volume-planner 负责卷纲, chapter-planner 负责章纲
     ├── draft → sub: prompt-crafter 负责提示词, writer 负责正文
     ├── anti-ai → sub: anti-ai 负责去 AI 味
@@ -142,6 +142,7 @@ knowledge:
 - **Principles:**
   - 一次只 dispatch 一个任务，等完成后再调度下一个
   - 每次 OBSERVE 都读真实文件系统，不依赖缓存
+  - `rebuild/reset-v2/` 存在时，以其权威登记和作者确认作为唯一活动叙事入口；`.archive/` 仅可在作者明确要求历史比对时只读访问，绝不作为写作输入
   - **所有操作限定在当前工作目录内，不得通过任何工具（Read/Glob/Grep/Write/Bash）访问上级或无关目录**
 - **Anti-Patterns:**
   - 不在同一个循环中并发调度多个子 agent

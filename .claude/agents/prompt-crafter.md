@@ -67,13 +67,13 @@ knowledge:
   - `chapters/vol-{N}-ch-{M}.md` → 章纲（memo、情绪、场景）
   - `settings/writing-style.md` → 写作风格四字段（core_principles/possible_mistakes/depiction_techniques）
   - `settings/character-setting/` → 本章涉及的角色设定（角色初始状态 + 叙事规则关联推导）
-  - `volumes/vol-{N}.md` → 前章摘要（结尾画面、情绪落点、缺口）
+  - `volumes/volume-{N}.md` → 前章摘要（结尾画面、情绪落点、缺口）
   - `.claude/knowledge/anti-ai.md` → 反 AI 规则
   - `.claude/knowledge/writer-style.md` → 文风偏好
   - `.claude/knowledge/genre-example/{genre}.md` → 题材提示词注入段（输出·写作规范用）
 - **Output Artifacts:**
   - `prompts/vol-{N}-ch-{M}-prompt.md` → 4 层提示词
-- **Hand-off Protocol:** 写入 prompt.md 后结束；novel-agent 检测到后验证
+- **Hand-off Protocol:** 写入 prompt.md 并完成审计后清理 `prompt-order.md`；novel-agent 检测到产物与 order 清理后验证。
 
 ## 四、运行时配置
 
@@ -164,6 +164,7 @@ knowledge:
 - **Principles:**
   - 严格按 6 元素骨架填充，不增不减
   - 反 AI 规则优先采用 [writer-preference] 标记的条目
+  - `rebuild/reset-v2/` 存在时，输入必须来自活动 `chapters/`、`settings/`、`volumes/`、已批准记忆和静态知识；不得读取 `.archive/` 或以历史资料补全缺失信息
   - **所有操作限定在当前工作目录内，不得访问上级或无关路径**
 - **Anti-Patterns:**
   - 不在提示词中出现"以下是小说的正文"类 meta 泄漏

@@ -1,0 +1,753 @@
+{
+  "archive_id": "rebuild-v1-reset-20260802-ad4cf7f",
+  "created_at": "2026-08-02T05:30:37.881670+00:00",
+  "source_head": "ad4cf7fa49797021c5a57d3516b6ac744c6b7ce6",
+  "source_branch": "main",
+  "source_worktree": "/Users/shuangxunian/code/story1",
+  "purpose": "Reset active narrative layer to prevent legacy continuity from becoming writing input.",
+  "active_baseline": [],
+  "files": [
+    {
+      "original_path": "story.md",
+      "archived_path": "source/story.md",
+      "classification": "legacy-narrative-input",
+      "file_count": 1,
+      "files": [
+        {
+          "path": ".",
+          "sha256": "971c87e30919bb1bb4aa96950391435e22556eb8c7ab7b2d890ec8efa952bfd5",
+          "size_bytes": 3230
+        }
+      ],
+      "restore_path": "story.md"
+    },
+    {
+      "original_path": "settings",
+      "archived_path": "source/settings",
+      "classification": "legacy-narrative-input",
+      "file_count": 22,
+      "files": [
+        {
+          "path": "character-setting/a-jie.md",
+          "sha256": "2f08dcd6cb8ad8d18061e5a6ef7e1ef10dc9dadcccfae7c7adb23fce23142628",
+          "size_bytes": 1826
+        },
+        {
+          "path": "character-setting/chen-du.md",
+          "sha256": "3f6d495c16e934551e04ec0b33a78606d06053f084cd8ccb7dfda44ce46d2b28",
+          "size_bytes": 4545
+        },
+        {
+          "path": "character-setting/cheng-yan.md",
+          "sha256": "4008315d6a7feb2d99ecff336bd5e690e5fac70a9f3f7a852027674647df6a36",
+          "size_bytes": 7132
+        },
+        {
+          "path": "character-setting/gu-zheng.md",
+          "sha256": "dc681d7d2b1a97e68514297d2123ab93843de3e87077fba55d54f07c038c5ce2",
+          "size_bytes": 9507
+        },
+        {
+          "path": "character-setting/he-ming.md",
+          "sha256": "ac5022d7f8ded40c878ed4bfe8fffe143d62b75488e9858d5607df7d50400635",
+          "size_bytes": 10495
+        },
+        {
+          "path": "character-setting/jiang-bo-shi.md",
+          "sha256": "8dd753a4363d8b9fa9ae78c58c67d2baa56cb4f0e25b0bdcd17ea14a2e3e9d46",
+          "size_bytes": 2579
+        },
+        {
+          "path": "character-setting/lao-zhang.md",
+          "sha256": "4dc474744d407766b04c1e5352f53195f9c6d37fb2991cf369e4dbb699bae33f",
+          "size_bytes": 1667
+        },
+        {
+          "path": "character-setting/lin-shi.md",
+          "sha256": "a1fbd500a667f4a4adb0eda90eef994b5fd6eadbf194f4270752b38be9dca364",
+          "size_bytes": 12902
+        },
+        {
+          "path": "character-setting/lu-chen.md",
+          "sha256": "d678ac0405169702174481459cb57bf2490839292aa7149ca9c2c3eb600320dd",
+          "size_bytes": 10340
+        },
+        {
+          "path": "character-setting/shen-mo.md",
+          "sha256": "b7f0dbcdd93413b3780822be04183ab100b388008f095e6cc84fdcdefbb72df2",
+          "size_bytes": 9012
+        },
+        {
+          "path": "character-setting/song-qing.md",
+          "sha256": "912f83e58b56ac7ef913592457556156654196efcfc139ce877e1e7ed9ef16e3",
+          "size_bytes": 9307
+        },
+        {
+          "path": "character-setting/su-wan.md",
+          "sha256": "eea7cb9bec1329406e8ce593aeac2e47cca6069d1e39d660d58747fda8b4a7ea",
+          "size_bytes": 8899
+        },
+        {
+          "path": "character-setting/xiao-zhao.md",
+          "sha256": "177f0a20575c43e0f9d93531680b26ce115282c835a12077b539f341ee23375e",
+          "size_bytes": 1572
+        },
+        {
+          "path": "character-setting/xu-lan.md",
+          "sha256": "2e543b85d939d9dc56ecb3922361fd2bd9b0f7cbc4cf3a2d8c0b776c93355f50",
+          "size_bytes": 9664
+        },
+        {
+          "path": "character-setting/zhou-jiao-guan.md",
+          "sha256": "5135b076e66d24d3e60f814d0e4f5974d2e661465feeec304d7e078e2993a285",
+          "size_bytes": 3601
+        },
+        {
+          "path": "character-setting/zhou-ke.md",
+          "sha256": "b8bbde5889c338c6414050c99c3c1ce679f8926c86c789e9d630b87b38ce6a14",
+          "size_bytes": 1876
+        },
+        {
+          "path": "character-setting/zhou-lin-yuan.md",
+          "sha256": "a97c05e636e8941f081fd618dc0303f98e2e960ce25b5e708538e281bc24e2e6",
+          "size_bytes": 7529
+        },
+        {
+          "path": "foreshadowing.md",
+          "sha256": "c2499440bd81bc6692d042c9a51d9fe5dca4a98c8eaf828a3f5c74355577da48",
+          "size_bytes": 4398
+        },
+        {
+          "path": "genre-setting.md",
+          "sha256": "6c165999a2fecdd97309abd88d98e90d979e221603ec880ce12dfad087964f60",
+          "size_bytes": 1238
+        },
+        {
+          "path": "timeline.md",
+          "sha256": "049e0856424a50866c0ce780d3853e7dcd0750b91f15dd10b807a320e7c614fb",
+          "size_bytes": 10651
+        },
+        {
+          "path": "world-setting.md",
+          "sha256": "f8afbf5227908a7206de21a2e71d02fc5eb5168e44e773bcc91404a8e2607609",
+          "size_bytes": 4312
+        },
+        {
+          "path": "writing-style.md",
+          "sha256": "b9a504f33d5a288f1c97ab4f69e19127d6ef84913acf9dacfdb9be4918c537c0",
+          "size_bytes": 2024
+        }
+      ],
+      "restore_path": "settings"
+    },
+    {
+      "original_path": "volumes",
+      "archived_path": "source/volumes",
+      "classification": "legacy-narrative-input",
+      "file_count": 2,
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "ea61dc66668484b33dc2c6254b766c6b238e99d9a0a25c7625bfeba07c12a78e",
+          "size_bytes": 188
+        },
+        {
+          "path": "volume-1.md",
+          "sha256": "5b72aa7fa7ff1e8df4e6e749d769b0d32189bbe23de395af9943574b386fe273",
+          "size_bytes": 20528
+        }
+      ],
+      "restore_path": "volumes"
+    },
+    {
+      "original_path": "chapters",
+      "archived_path": "source/chapters",
+      "classification": "legacy-narrative-input",
+      "file_count": 12,
+      "files": [
+        {
+          "path": "vol-1-ch-1.md",
+          "sha256": "c906e02f47b608b4ff3c8c38edc2ba3b9246e1bec52e16796046001a270452fb",
+          "size_bytes": 33031
+        },
+        {
+          "path": "vol-1-ch-10.md",
+          "sha256": "a9b05d734460a51cecfc738221abff46565ca5f910690996a0cfb1dcaaf3cece",
+          "size_bytes": 41782
+        },
+        {
+          "path": "vol-1-ch-2.md",
+          "sha256": "d89b2c0095d5374343dacc4c748a262576950ec5ee4659c4d8a8eb045f70a8ae",
+          "size_bytes": 39728
+        },
+        {
+          "path": "vol-1-ch-3-150.md",
+          "sha256": "8240b54b1f9c3d4ca54c9916716a49eee7ce4d43ddc02e042bbaa4a230a0c2d5",
+          "size_bytes": 27801
+        },
+        {
+          "path": "vol-1-ch-3-70.md.bak",
+          "sha256": "7b62ce562a336c19a2e618bd484d9b0779cafedf964e18b3cbf881c0335dc3f1",
+          "size_bytes": 7861
+        },
+        {
+          "path": "vol-1-ch-3.md",
+          "sha256": "a9c2daaf3ef074027a24973378c3918200aff310c91d325a546393904e1b4168",
+          "size_bytes": 38497
+        },
+        {
+          "path": "vol-1-ch-4.md",
+          "sha256": "f456abe2f22f3a2327d91a1840b484e4d78f632f96bb83931f0a415e5badb664",
+          "size_bytes": 39616
+        },
+        {
+          "path": "vol-1-ch-5.md",
+          "sha256": "3598d3da1fc913e1acc085fbd3eb7284500b4381d85e05e9ee5105c75e845b02",
+          "size_bytes": 33264
+        },
+        {
+          "path": "vol-1-ch-6.md",
+          "sha256": "194b7bd61b045ede508a7a96721dbd93087bb7434b8e6afbc9c761b874170d99",
+          "size_bytes": 34095
+        },
+        {
+          "path": "vol-1-ch-7.md",
+          "sha256": "5d16a7cbd2de3d0b34effa96dd45a04c8c2d70dfe434875dc1a35b077e7b20a6",
+          "size_bytes": 27926
+        },
+        {
+          "path": "vol-1-ch-8.md",
+          "sha256": "8d7118fdf51aa3050ac79ac7e136d387d39375dbb82f8bb3d5ebede269271afd",
+          "size_bytes": 30580
+        },
+        {
+          "path": "vol-1-ch-9.md",
+          "sha256": "2687242f783ab4a81797d9afabacaf6d660ec2f61d079ab6d478b53443b24086",
+          "size_bytes": 37412
+        }
+      ],
+      "restore_path": "chapters"
+    },
+    {
+      "original_path": "prompts",
+      "archived_path": "source/prompts",
+      "classification": "legacy-narrative-input",
+      "file_count": 9,
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "f684beb910bf5f0051c753e118f21d58aeb500ea3026e88ea601fcde30476442",
+          "size_bytes": 300
+        },
+        {
+          "path": "vol-1-ch-1-prompt.md",
+          "sha256": "4d933a366fd0744204303df73f1507645503085dbe9f2341451039277ba1d3fe",
+          "size_bytes": 24859
+        },
+        {
+          "path": "vol-1-ch-3-prompt.md",
+          "sha256": "c5e536d32020e9e8bcb370618238217de1e6caadeb857c85c2513158086b7ca9",
+          "size_bytes": 78583
+        },
+        {
+          "path": "vol-1-ch-4-prompt.md",
+          "sha256": "9435e7173ea3a634e57ed247591555ab323dafede1832f4abfbf197b2847e047",
+          "size_bytes": 17051
+        },
+        {
+          "path": "vol-1-ch-5-prompt.md",
+          "sha256": "522db3a928a777486ed3e3355083ca2fe99d323e5858fcc2f998fc10dc8a5f48",
+          "size_bytes": 27451
+        },
+        {
+          "path": "vol-1-ch-6-prompt.md",
+          "sha256": "b365900c3eeef13684aa190b46656dda6ec54e9cedaf7fe4d22f4df524b700a0",
+          "size_bytes": 21686
+        },
+        {
+          "path": "vol-1-ch-7-prompt.md",
+          "sha256": "8b3b4843a327257dc1e949f31ae0db374af3c4b882234770326e301ae790af88",
+          "size_bytes": 24541
+        },
+        {
+          "path": "vol-1-ch-8-prompt.md",
+          "sha256": "f2c163b95301009ba1bdc2997cab3167c64fc9a66cea6d9635da30345d87539c",
+          "size_bytes": 33970
+        },
+        {
+          "path": "vol-1-ch-9-prompt.md",
+          "sha256": "9799712c9ca3eca6ac5dd92c31bb840943dd4b958ce9470263af568ecfe0e933",
+          "size_bytes": 39380
+        }
+      ],
+      "restore_path": "prompts"
+    },
+    {
+      "original_path": "archives",
+      "archived_path": "source/archives",
+      "classification": "legacy-narrative-input",
+      "file_count": 12,
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "4aa576ade1bb52fbc1292ce9f82a001ccbf44f3645bf3ca33b98f7982a805b79",
+          "size_bytes": 391
+        },
+        {
+          "path": "vol-1-ch-1-jing.md",
+          "sha256": "7ed9163f39dad509aa8dd010fb73d202dee7fbeecb0ffcdf735cdb241b2ae841",
+          "size_bytes": 473422
+        },
+        {
+          "path": "vol-1-ch-1-jing.rebuild-v1.anti-ai.md",
+          "sha256": "f28ea9f77b7d07e34b18936c40b29bd6a4ee28b1d495e4f4b719644a2c26ab6f",
+          "size_bytes": 464668
+        },
+        {
+          "path": "vol-1-ch-1-jing.rebuild-v1.draft.md",
+          "sha256": "f28ea9f77b7d07e34b18936c40b29bd6a4ee28b1d495e4f4b719644a2c26ab6f",
+          "size_bytes": 464668
+        },
+        {
+          "path": "vol-1-ch-2-xinhao.md",
+          "sha256": "d9c9eb5282cc2b9b612fdda6df3ac52453f7b02cfcb988f0f915929d38328d2f",
+          "size_bytes": 721842
+        },
+        {
+          "path": "vol-1-ch-3-huisheng.md",
+          "sha256": "5fbf9092eea216cd81a28f9cb151871364ea55d29654f849c59864a5d1137984",
+          "size_bytes": 887403
+        },
+        {
+          "path": "vol-1-ch-4-huise.md",
+          "sha256": "796c6ea8a85c8635c178175170df545b687bf5dec93aac2dd486da7e2f018390",
+          "size_bytes": 667698
+        },
+        {
+          "path": "vol-1-ch-5-lihen.md",
+          "sha256": "d533fff64d8ba92d8e77ee36e11acd639fa1600a281d291460e778fd7e23641f",
+          "size_bytes": 690344
+        },
+        {
+          "path": "vol-1-ch-6-shenyuan.md",
+          "sha256": "d520f9754caa0ed5669ff8d31ed15c3d1db9a0fd59e7107036751983a8dfb4bd",
+          "size_bytes": 128712
+        },
+        {
+          "path": "vol-1-ch-7-huixiang.md",
+          "sha256": "7f6fe33d37673e226c4d41cca0196db015d59b0c27704f0e0b9041c690907ce0",
+          "size_bytes": 225337
+        },
+        {
+          "path": "vol-1-ch-8-fenlie.md",
+          "sha256": "c01e59917a396d65a0bed0aaf4d70b3333879a19c824d896ef3a5057d9f200a5",
+          "size_bytes": 745252
+        },
+        {
+          "path": "vol-1-ch-9-daojishi.draft.md",
+          "sha256": "5b4ab7cac26195e0e1092b13d582c39d244437499a27787fa8fa4f580aa94e27",
+          "size_bytes": 333345
+        }
+      ],
+      "restore_path": "archives"
+    },
+    {
+      "original_path": "docs",
+      "archived_path": "source/docs",
+      "classification": "legacy-narrative-input",
+      "file_count": 14,
+      "files": [
+        {
+          "path": "chapter01_outline.md",
+          "sha256": "36d7207897cd556270722a0b4d4bcd36a71586a447290ea33f217b3ed2778f7c",
+          "size_bytes": 6895
+        },
+        {
+          "path": "chapter02_outline.md",
+          "sha256": "2e6bafea2572c072171452b8bc7fa048ecb0fd0fa426e5e41640f9fdd8e08e0d",
+          "size_bytes": 7121
+        },
+        {
+          "path": "chapter02_revision_plan.md",
+          "sha256": "3f7465324f33098a505ca9980324aab7e1904fb4c44ccfd5c69265b2209b3d00",
+          "size_bytes": 2947
+        },
+        {
+          "path": "chapter03_anti_ai_scan.md",
+          "sha256": "172fecfce489577758b9b779acaec1f1d0fb06979b84346599aeb425e2a9a758",
+          "size_bytes": 8317
+        },
+        {
+          "path": "chapter03_outline.md",
+          "sha256": "57b301689603f7aaad5077725102fbaaf50c3ae5919e3083381efe6cf969d5dd",
+          "size_bytes": 12033
+        },
+        {
+          "path": "chapter04_outline.md",
+          "sha256": "2e84051897f3414aee43173c62d752730e2e49f2a313e7447d7edc53ad39819f",
+          "size_bytes": 1145
+        },
+        {
+          "path": "characters.md",
+          "sha256": "2bff575644b0d25d81224aa76330d200bf30f35e449e168bbc441c4bb8c57105",
+          "size_bytes": 8687
+        },
+        {
+          "path": "continuity.md",
+          "sha256": "0d76821b2b1cee38b42d706d41ef2ddff82dfae2da5cb35f2273bb50f898f756",
+          "size_bytes": 5030
+        },
+        {
+          "path": "early_chapter_revision_plan.md",
+          "sha256": "bb9320f1d5285083c1fed13e1d6b39db6300e54f2c7e5ce42ed55a5726e52c25",
+          "size_bytes": 3652
+        },
+        {
+          "path": "outline.md",
+          "sha256": "fe80ed56e85793b7e1bca4337594e5aaa16a9285ebdce363ad0fd4540fc3280c",
+          "size_bytes": 10973
+        },
+        {
+          "path": "project_map.md",
+          "sha256": "9a39e11fa96b8e0f6249c634215a5409f22ded0805fbb82010d2738f4bc1da38",
+          "size_bytes": 2051
+        },
+        {
+          "path": "revision_notes.md",
+          "sha256": "8a79dc51a99a57f80c01091c7858ace619bef8b3610cfc136287bbd921abbe84",
+          "size_bytes": 8588
+        },
+        {
+          "path": "story_structure.md",
+          "sha256": "5b6cf4d6886659d6abdaed884d98c6817c585513c74d49d15f9ff46431427473",
+          "size_bytes": 10776
+        },
+        {
+          "path": "timeline.md",
+          "sha256": "1140d55475646b52ff70500693b0912e5b583a5f87f5e4599c39c2e87e285f73",
+          "size_bytes": 984
+        }
+      ],
+      "restore_path": "docs"
+    },
+    {
+      "original_path": "02-写作计划.json",
+      "archived_path": "source/02-写作计划.json",
+      "classification": "legacy-narrative-input",
+      "file_count": 1,
+      "files": [
+        {
+          "path": ".",
+          "sha256": "cec40881f35d3cbb3897cb9ea44f72b56dae3a397f92a99904a5faa7bb57951b",
+          "size_bytes": 2542
+        }
+      ],
+      "restore_path": "02-写作计划.json"
+    },
+    {
+      "original_path": ".claude/memory",
+      "archived_path": "source/.claude/memory",
+      "classification": "legacy-narrative-input",
+      "file_count": 5,
+      "files": [
+        {
+          "path": "MEMORY.md",
+          "sha256": "44ada106916ad83b1470b7db9c185851df4090c179a207a250636814db383774",
+          "size_bytes": 38
+        },
+        {
+          "path": "chapter-memory.md",
+          "sha256": "29d42fa611f7db6a0cd43819c08b45835e635d516f2adcfa3c65f215df055fdc",
+          "size_bytes": 4110
+        },
+        {
+          "path": "prompt-memory.md",
+          "sha256": "1f2fc3b7070609abb9ec231257703ac45b66e580f762590e900899ff8010b77b",
+          "size_bytes": 217
+        },
+        {
+          "path": "volume-memory.md",
+          "sha256": "8356b1f249f80c547ac9a3a219d56f1afba02dab2107a4892e71f141e183551b",
+          "size_bytes": 240
+        },
+        {
+          "path": "writing-memory.md",
+          "sha256": "0e65ab9bd18c6af02e72502144e1c8871d846a2164dd6f2db15471b795fad97b",
+          "size_bytes": 7503
+        }
+      ],
+      "restore_path": ".claude/memory"
+    },
+    {
+      "original_path": ".claude/knowledge/permanent-memory.md",
+      "archived_path": "source/.claude/knowledge/permanent-memory.md",
+      "classification": "legacy-narrative-input",
+      "file_count": 1,
+      "files": [
+        {
+          "path": ".",
+          "sha256": "1960ccc68f26e5a95b249a0b41149441338f92e350ffc4c88688a05c9f1a6c0d",
+          "size_bytes": 983
+        }
+      ],
+      "restore_path": ".claude/knowledge/permanent-memory.md"
+    },
+    {
+      "original_path": ".claude/knowledge/writer-style.md",
+      "archived_path": "source/.claude/knowledge/writer-style.md",
+      "classification": "legacy-narrative-input",
+      "file_count": 1,
+      "files": [
+        {
+          "path": ".",
+          "sha256": "7cd7e04de921a0c9411c83852b202ca811199d5c73b03edfccc6dda4a7e56665",
+          "size_bytes": 2451
+        }
+      ],
+      "restore_path": ".claude/knowledge/writer-style.md"
+    },
+    {
+      "original_path": ".agent/status.md",
+      "archived_path": "source/.agent/status.md",
+      "classification": "legacy-narrative-input",
+      "file_count": 1,
+      "files": [
+        {
+          "path": ".",
+          "sha256": "1a56392e394f8777780be5c51ca27436c4d3c332d93bf238993825ae9e0401e0",
+          "size_bytes": 570
+        }
+      ],
+      "restore_path": ".agent/status.md"
+    },
+    {
+      "original_path": ".agent/task",
+      "archived_path": "source/.agent/task",
+      "classification": "legacy-narrative-input",
+      "file_count": 1,
+      "files": [
+        {
+          "path": "clean-batch-019-022.md",
+          "sha256": "cad7f105fa9f00b82b366ae22e921af85f4fa97628e55110290ea80be977a253",
+          "size_bytes": 1840
+        }
+      ],
+      "restore_path": ".agent/task"
+    },
+    {
+      "original_path": ".agent/raw",
+      "archived_path": "source/.agent/raw",
+      "classification": "legacy-narrative-input",
+      "file_count": 1,
+      "files": [
+        {
+          "path": "vol-1-ch-1-jing.rebuild-v1.draft.md",
+          "sha256": "73b3f3bb6ed10cd6078813c925c1dce8cd41899d1bf20f3e2233aa0fd35860c2",
+          "size_bytes": 16826
+        }
+      ],
+      "restore_path": ".agent/raw"
+    },
+    {
+      "original_path": ".agent/.sync-fingerprint",
+      "archived_path": "source/.agent/.sync-fingerprint",
+      "classification": "legacy-narrative-input",
+      "file_count": 1,
+      "files": [
+        {
+          "path": ".",
+          "sha256": "dcfcb185ed3bf881fdfcc29ac357273ef6c19cde1f7c76e70729cce75b028eb8",
+          "size_bytes": 65
+        }
+      ],
+      "restore_path": ".agent/.sync-fingerprint"
+    },
+    {
+      "original_path": "rebuild/batches",
+      "archived_path": "source/rebuild/batches",
+      "classification": "legacy-narrative-input",
+      "file_count": 1,
+      "files": [
+        {
+          "path": "ch1-019-022.draft.md",
+          "sha256": "b239017db5060f61496f0abd9d744cc47273cb4ee6b309c78b9160b9ef37e0b2",
+          "size_bytes": 27127
+        }
+      ],
+      "restore_path": "rebuild/batches"
+    },
+    {
+      "original_path": "rebuild/changes",
+      "archived_path": "source/rebuild/changes",
+      "classification": "legacy-narrative-input",
+      "file_count": 3,
+      "files": [
+        {
+          "path": "ch1-001-002.sha256",
+          "sha256": "0f847d66f14ba56ffca71e2e52ffb03546b6d92f2b6f4dc1ef981b3ed4b67502",
+          "size_bytes": 143
+        },
+        {
+          "path": "ch1-001-004.sha256",
+          "sha256": "9844d0424dbac33c5de5221879ee48f56c561c62d12e90871e933b89f0f39205",
+          "size_bytes": 143
+        },
+        {
+          "path": "ch1-001-006.sha256",
+          "sha256": "5c4337b858b34cfb0f3263c0ba38a0dceb24d64e4e3e7a969c292e0ae321464e",
+          "size_bytes": 111
+        }
+      ],
+      "restore_path": "rebuild/changes"
+    },
+    {
+      "original_path": "rebuild/invalid-attempts",
+      "archived_path": "source/rebuild/invalid-attempts",
+      "classification": "legacy-narrative-input",
+      "file_count": 8,
+      "files": [
+        {
+          "path": "chapter-1/vol-1-ch-1-jing.rebuild-v1.anti-ai.md",
+          "sha256": "c0c06a4b7526802d55008e505b4a50f4714c21d4244c2cc184d11e9eea6ee6b7",
+          "size_bytes": 16821
+        },
+        {
+          "path": "chapter-1/vol-1-ch-1-jing.rebuild-v1.complete-20260727234847.draft.md",
+          "sha256": "cedf92bd518f65a234615e5881c8d6a88f98780fcb13c457e7575ab472c92833",
+          "size_bytes": 1564239
+        },
+        {
+          "path": "chapter-1/vol-1-ch-1-jing.rebuild-v1.complete-20260727235719.draft.md",
+          "sha256": "c47c697393049490c0a4e7438b31f87d50d62dad1108a7a7a12fb2c3cf5a901a",
+          "size_bytes": 2746593
+        },
+        {
+          "path": "chapter-1/vol-1-ch-1-jing.rebuild-v1.complete-20260727235956.draft.md",
+          "sha256": "539866f6154edac209f5d5e56389117bacaab94a64852390e999da174ca0715e",
+          "size_bytes": 2820679
+        },
+        {
+          "path": "chapter-1/vol-1-ch-1-jing.rebuild-v1.complete-20260728000047.draft.md",
+          "sha256": "ca7a1bdb39d6c7c98e907271ddd511ec67dd01e4ec2cfa4bee46046e426c5647",
+          "size_bytes": 451515
+        },
+        {
+          "path": "chapter-1/vol-1-ch-1-jing.rebuild-v1.complete-20260728000147.draft.md",
+          "sha256": "ca7a1bdb39d6c7c98e907271ddd511ec67dd01e4ec2cfa4bee46046e426c5647",
+          "size_bytes": 451515
+        },
+        {
+          "path": "chapter-1/vol-1-ch-1-jing.rebuild-v1.premature-001-009.draft.md",
+          "sha256": "0f802f31aa2ad18f4d1e9da0a9632735ffe1c333d4472db6a3c581d3cc4d010e",
+          "size_bytes": 68931
+        },
+        {
+          "path": "chapter-1/vol-1-ch-1-jing.rebuild-v1.validated-20260728000247.draft.md",
+          "sha256": "ca7a1bdb39d6c7c98e907271ddd511ec67dd01e4ec2cfa4bee46046e426c5647",
+          "size_bytes": 451515
+        }
+      ],
+      "restore_path": "rebuild/invalid-attempts"
+    },
+    {
+      "original_path": "rebuild/vol-1-ch-1-jing.clean-baseline.draft.md",
+      "archived_path": "source/rebuild/vol-1-ch-1-jing.clean-baseline.draft.md",
+      "classification": "legacy-narrative-input",
+      "file_count": 1,
+      "files": [
+        {
+          "path": ".",
+          "sha256": "73b3f3bb6ed10cd6078813c925c1dce8cd41899d1bf20f3e2233aa0fd35860c2",
+          "size_bytes": 16826
+        }
+      ],
+      "restore_path": "rebuild/vol-1-ch-1-jing.clean-baseline.draft.md"
+    },
+    {
+      "original_path": "rebuild/clean-baseline-status.md",
+      "archived_path": "source/rebuild/clean-baseline-status.md",
+      "classification": "legacy-narrative-input",
+      "file_count": 1,
+      "files": [
+        {
+          "path": ".",
+          "sha256": "52683d5d00f4f56beee38fc1b2492a531cbf5e5fc80aa2d6984370da1941eac7",
+          "size_bytes": 953
+        }
+      ],
+      "restore_path": "rebuild/clean-baseline-status.md"
+    },
+    {
+      "original_path": "image",
+      "archived_path": "source/image",
+      "classification": "legacy-narrative-input",
+      "file_count": 1,
+      "files": [
+        {
+          "path": "cf61890c-d401-4677-a5b9-c490fd244f3f.png",
+          "sha256": "0c29145e25a2c6c4d238ee3fff9c3df6599976d03537bcde9fae619b6c6802ab",
+          "size_bytes": 2055179
+        }
+      ],
+      "restore_path": "image"
+    }
+  ],
+  "special_exclusions": {
+    "archives/vol-1-ch-9-daojishi.draft.md": "legacy-reference / rewrite-input / never-continue-directly",
+    "rebuild/batches/ch1-019-022.draft.md": "unaccepted pre-reset batch / never-merge-automatically",
+    "rebuild/vol-1-ch-1-jing.clean-baseline.draft.md": "pre-reset reference / not-canon / not-active-input"
+  },
+  "excluded_files": [],
+  "restoration_instructions": "Restore only into a separate worktree or a new path. Verify SHA-256 before any manual merge. Do not restore files to active writing directories as writing input without an explicit author decision.",
+  "verification_result": "All archived copies matched their source SHA-256 and byte sizes before source paths were removed.",
+  "git_status_before": [
+    " M .agent/status.md",
+    " M .claude/agents/anti-ai.md",
+    " M .claude/agents/chapter-planner.md",
+    " M .claude/agents/prompt-crafter.md",
+    " M .claude/agents/volume-planner.md",
+    " M .claude/agents/writer.md",
+    " M .claude/skills/novel-dispatch.md",
+    " M .claude/skills/writing-execution.md",
+    " M chapters/vol-1-ch-3.md",
+    " M chapters/vol-1-ch-4.md",
+    " M chapters/vol-1-ch-5.md",
+    " M chapters/vol-1-ch-6.md",
+    " M chapters/vol-1-ch-7.md",
+    " M chapters/vol-1-ch-8.md",
+    " M chapters/vol-1-ch-9.md",
+    " M volumes/volume-1.md",
+    "?? .agent/raw/vol-1-ch-1-jing.rebuild-v1.draft.md",
+    "?? .agent/task/clean-batch-019-022.md",
+    "?? .claude/knowledge/writer-style.md",
+    "?? archives/vol-1-ch-1-jing.rebuild-v1.anti-ai.md",
+    "?? archives/vol-1-ch-1-jing.rebuild-v1.draft.md",
+    "?? chapters/vol-1-ch-1.md",
+    "?? chapters/vol-1-ch-10.md",
+    "?? chapters/vol-1-ch-2.md",
+    "?? prompts/vol-1-ch-1-prompt.md",
+    "?? rebuild/baseline-manifest.md",
+    "?? rebuild/batches/ch1-019-022.draft.md",
+    "?? rebuild/canon-event-matrix.md",
+    "?? rebuild/changes/ch1-001-002.sha256",
+    "?? rebuild/changes/ch1-001-004.sha256",
+    "?? rebuild/changes/ch1-001-006.sha256",
+    "?? rebuild/chapter-spec-matrix.md",
+    "?? rebuild/character-state-matrix.md",
+    "?? rebuild/clean-baseline-status.md",
+    "?? rebuild/contradiction-ledger.md",
+    "?? rebuild/invalid-attempts/chapter-1/vol-1-ch-1-jing.rebuild-v1.anti-ai.md",
+    "?? rebuild/invalid-attempts/chapter-1/vol-1-ch-1-jing.rebuild-v1.complete-20260727234847.draft.md",
+    "?? rebuild/invalid-attempts/chapter-1/vol-1-ch-1-jing.rebuild-v1.complete-20260727235719.draft.md",
+    "?? rebuild/invalid-attempts/chapter-1/vol-1-ch-1-jing.rebuild-v1.complete-20260727235956.draft.md",
+    "?? rebuild/invalid-attempts/chapter-1/vol-1-ch-1-jing.rebuild-v1.complete-20260728000047.draft.md",
+    "?? rebuild/invalid-attempts/chapter-1/vol-1-ch-1-jing.rebuild-v1.complete-20260728000147.draft.md",
+    "?? rebuild/invalid-attempts/chapter-1/vol-1-ch-1-jing.rebuild-v1.premature-001-009.draft.md",
+    "?? rebuild/invalid-attempts/chapter-1/vol-1-ch-1-jing.rebuild-v1.validated-20260728000247.draft.md",
+    "?? rebuild/rebuild-charter.md",
+    "?? rebuild/source-of-truth.md",
+    "?? rebuild/vol-1-ch-1-jing.clean-baseline.draft.md",
+    "?? rebuild/world-rule-ledger.md",
+    "?? settings/foreshadowing.md"
+  ]
+}

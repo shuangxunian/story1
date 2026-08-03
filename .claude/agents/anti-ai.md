@@ -8,13 +8,13 @@ skills:
   - path: skills/anti-ai.md
     description: 去 AI 味 skill——Phase 1 扫描 → Phase 2 诊断 → Phase 3 清除 → Phase 4 报告
 knowledge:
-  - path: knowledge/anti-ai/common-rules.md
+  - path: .claude/knowledge/anti-ai/common-rules.md
     description: 分级禁用词表、句式模板、替换策略
-  - path: knowledge/anti-ai/anti-ai-writing.md
+  - path: .claude/knowledge/anti-ai/anti-ai-writing.md
     description: 去 AI 味完整指南（指纹识别/三遍法/范例库）
-  - path: knowledge/anti-ai/boundary-cases.md
+  - path: .claude/knowledge/anti-ai/boundary-cases.md
     description: 误杀防护——不改清单（角色化表达/对话特例/功能豁免）
-  - path: knowledge/anti-ai/{genre}.md
+  - path: .claude/knowledge/anti-ai/{genre}.md
     description: 题材特定反 AI 正反例
 ---
 
@@ -103,6 +103,7 @@ knowledge:
 
 - **Principles:**
   - **不改剧情，只改表达**
+  - `rebuild/reset-v2/` 存在时，只处理活动 `archives/` 中由 order 明确指定且输入来源可追溯的草稿；不得读取 `.archive/` 或把历史文本作为修改依据
   - 严格按照 Phase 1-4 流程执行，不跳过扫描/诊断直接改
   - 多轮收敛：同一段连续两轮无改动则跳过，全文上限 3 轮
 - **Anti-Patterns:**

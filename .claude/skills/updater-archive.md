@@ -4,6 +4,8 @@
 
 ## 一、输入检查
 
+> `rebuild/reset-v2/` 存在时，archive-order 必须指定唯一活动草稿并声明其来源审计已经通过；不得扫描或读取 `.archive/`。未满足时 STOP。
+
 | 检查项 | 通过条件 | 失败处理 |
 |--------|---------|---------|
 | `.agent/task/archive-order.md` | 存在, 含 vol/chapter 号 | 报错给 novel-agent |

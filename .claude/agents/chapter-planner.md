@@ -78,7 +78,7 @@ knowledge:
   - `chapters/` 前 3 章 → 衔接
 - **Output Artifacts:**
   - `chapters/vol-{N}-ch-{M}.md` → 章纲（memo、情绪设计、场景列表、hooks）
-- **Hand-off Protocol:** 写入 chapters/vol-{N}-ch-{M}.md 后结束
+- **Hand-off Protocol:** 写入 chapters/vol-{N}-ch-{M}.md 并通过验收后清理 `chapter-plan-order.md`；novel-agent 检测产物与 order 清理后确认。
 
 ## 四、运行时配置
 

@@ -1,5 +1,3 @@
 # prompts
 
-awesome-novel 标准提示词目录。
-
-正式走完整流水线时，每章会生成类似 `vol-1-ch-4-prompt.md` 的提示词包，再交给 writer 产出正文。正文草稿/定稿统一汇总到 `archives/`，避免再使用非标准的顶层分页目录作为 canonical 工作区。
+这里仅保存 reset-v2 的活动提示词。每份提示词必须来自对应的活动章纲，并明确排除 `.archive/` 中的历史资料。

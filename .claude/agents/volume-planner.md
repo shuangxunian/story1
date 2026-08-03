@@ -84,7 +84,7 @@ knowledge:
   - `settings/genre-setting.md` → 题材节奏预期
 - **Output Artifacts:**
   - `volumes/volume-{N}.md` → 卷纲（核心冲突、每章方向、情绪曲线）
-- **Hand-off Protocol:** 写入 volume-{N}.md 后结束；novel-agent 检测到文件变化即确认完成
+- **Hand-off Protocol:** 写入 volume-{N}.md 并完成验收后清理 `volume-plan-order.md`；novel-agent 检测产物与 order 清理后确认。
 
 ## 四、运行时配置
 

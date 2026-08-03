@@ -5,7 +5,7 @@
 ## 流程概览
 
 ```text
-Step 1: 准备（确认卷号/章号/prompt 完整性）
+Step 1: 准备（确认 order 模式、卷号/章号/prompt 完整性）
 Step 2: 清理上下文（减少干扰）
 Step 3: 写作（sub-agent 执行）
 Step 4: 验证输出（文件存在 + 字数达标）
@@ -15,9 +15,11 @@ Step 6: 保存 AI 原版快照
 
 ## Step 1: 准备
 
-1. 确认卷号 `{N}` 和章号 `{M}`
-2. 读取 `prompts/vol-{N}-ch-{M}-prompt.md`，确认 4 层完整。字数和驱动力从任务层获取，叙事视角从输出·写作规范获取
-3. 创建 `.agent/` 目录（如不存在），记录 AI 原版快照路径：`{chapter}-draft-ai.md`
+1. 读取 `.agent/task/write-order.md`，确认 `mode` 为 `new-draft` 或 `continue`，并确认卷号 `{N}` 和章号 `{M}`
+2. `rebuild/reset-v2/` 存在时，order 必须列出允许输入文件，并明确排除 `.archive/`、旧正文、旧候选稿和重置前批次；任一条件不满足即停止。
+3. 读取 `prompts/vol-{N}-ch-{M}-prompt.md`，确认 4 层完整。字数和驱动力从任务层获取，叙事视角从输出·写作规范获取
+4. `new-draft`：创建 `.agent/` 目录（如不存在），记录 AI 原版快照路径：`{chapter}-draft-ai.md`
+5. `continue`：order 必须写明目标草稿、锁定既有节范围、最后既有节标题、仅追加的节范围和停止条件。先验证目标草稿存在、最后标题匹配，且目标新增节尚不存在；任一不符即停止，不得覆盖或续写。
 
 ## Step 2: 清理上下文
 
@@ -25,15 +27,21 @@ Step 6: 保存 AI 原版快照
 
 ## Step 3: 写作（sub-agent 执行）
 
+根据 order 的 `mode` 选择范围：
+
+- `new-draft`：沿用下方完整章节写作流程。
+- `continue`：只读取 order 指定草稿的必要末段，严格追加指定节段；不得覆盖、重排或润色锁定内容。完成指定范围后立即结束，不跨入后续节段。
+
 启动 sub-agent（推荐 flash 模型），传入以下完整指令：
 
 ```markdown
 ## Role
-全章正文写作。只读提示词文件，一次性写完整章正文。章纲约束已全部注入提示词。
+全章正文写作。默认只读提示词文件，一次性写完整章正文；当 order 指定 `continue` 时，只能读取指定草稿的必要末段并追加获准节段。章纲约束已全部注入提示词。
 
 ## Scope
-- 做：读提示词，按叙事段落顺序写整章
-- 不做：不读卷纲/章纲/archives、不修改提示词、不写其他章、不写 settings/ 下任何文件
+- `new-draft`：读提示词，按叙事段落顺序写整章
+- `continue`：读提示词与 order 指定草稿的必要末段，只追加指定节段
+- 不做：不读卷纲/章纲、不修改提示词、不写其他章、不写 settings/ 下任何文件；`continue` 不改写任何锁定节段
 
 ## Inputs
 - `prompts/vol-{N}-ch-{M}-prompt.md` — 主要输入（4 层提示词）
@@ -41,7 +49,8 @@ Step 6: 保存 AI 原版快照
 - `settings/genre-setting.md` — 题材设定
 
 ## Outputs
-- `archives/vol-{N}-ch-{M}-{slug}.draft.md` — 全章正文草稿
+- `new-draft`：`archives/vol-{N}-ch-{M}-{slug}.draft.md` — 全章正文草稿
+- `continue`：order 指定的既有草稿 — 仅追加获准节段
 
 ## 写作规则
 - 按提示词叙事段落 1→N 顺序写，段落间过渡流畅
@@ -66,7 +75,7 @@ sub-agent 执行写完后返回。主 Agent 检查输出文件是否存在。
 | 检查项 | 操作 |
 |--------|------|
 | 输出文件存在？ | `archives/vol-{N}-ch-{M}-*.draft.md` 存在？不存在→重试 1 次 |
-| 字数达标？ | ≥ 章纲字数 80%？不足→标注缺口，问作者是否接受 |
+| 字数达标？ | `new-draft`：≥章纲字数 80%；`continue`：满足 order 指定节段、每节目标与场景覆盖；不足→标注缺口，问作者是否接受 |
 | 文件位置正确？ | 写入到 archives/ 目录而非其他地方？ |
 
 ## Step 5: 叙事规则自查
@@ -89,7 +98,8 @@ sub-agent 执行写完后返回。主 Agent 检查输出文件是否存在。
 
 验证通过后：
 
-1. 读取刚生成的草稿 `archives/vol-{N}-ch-{M}-{slug}.draft.md`
-2. 复制一份到 `.agent/{chapter}-draft-ai.md`
+1. `new-draft`：读取刚生成的草稿 `archives/vol-{N}-ch-{M}-{slug}.draft.md`
+2. `continue`：仅在完整草稿形成后生成 raw snapshot；分段续写期间保留既有草稿并验证锁定范围未改动
+3. 复制完整草稿快照到 `.agent/{chapter}-draft-ai.md`，不得覆盖已有快照
 
 此快照用于后续归档时的 diff 对比，作家修改前保留原始版本。

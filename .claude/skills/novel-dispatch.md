@@ -16,8 +16,8 @@ novel-agent **只做三件事**：
 | setup | updater | `setting-update-order.md` |
 | outline | volume-planner | `volume-plan-order.md` |
 | outline | chapter-planner | `chapter-plan-order.md` |
-| draft | prompt-crafter | `prompt-craft-order.md` |
-| draft | writer | `writing-order.md` |
+| draft | prompt-crafter | `prompt-order.md` |
+| draft | writer | `write-order.md` |
 | anti-ai | anti-ai | `anti-ai-order.md` |
 | review | reader | `reader-review-order.md` |
 | archive | updater | `archive-order.md` |
@@ -32,9 +32,9 @@ novel-agent **只做三件事**：
 
 ## 检查完成的标准
 
-- order 文件已不存在（被子 agent 清理）
-- 对应产出文件存在且非空
-- 如果超过 2 次重试仍失败，问作者是否手动介入
+- 写文件的子 agent：order 文件已不存在（由该子 agent 清理），且对应产出文件存在且非空。
+- reader：已返回完整读者反馈；reader 只读，不清理 order。novel-agent 记录反馈后清理 `reader-review-order.md`。
+- 如果超过 2 次重试仍失败，问作者是否手动介入。
 
 ## 禁止事项
 
